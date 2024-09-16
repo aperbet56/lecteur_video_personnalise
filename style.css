@@ -137,3 +137,26 @@ video {
 footer span {
     font-size: 20px;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 670px) {
+    .container__video {
+        width: 90%;
+        height: 300px;
+    }
+
+    video {
+        object-fit: contain;
+    }
+
+    .pause__play,
+    .fullscreen {
+        width: 20px;
+        height: 20px;
+    }
+
+    .muted {
+        width: 50px;
+    }
+}
