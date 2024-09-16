@@ -1,0 +1,139 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6b60d;
+    color: #372800; 
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+h1, 
+span {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__video {
+    width: 600px;
+    height: 400px;
+    border-radius: 3px;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.controls {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(90%);
+    transition: all 0.2s ease-in-out;
+}
+
+.container__video:hover .controls {
+    transform: translateY(0);
+}
+
+
+.progress__bar {
+    width: 100%;
+    height: 5px;
+}
+
+.container__btns {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pause__play {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.pause {
+    background-image: url(../img/pause.svg);
+}
+
+.muted {
+    width: 60px;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+.fullscreen {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/fullscreen.svg);
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.progress__bar, 
+.pause__play, 
+.muted, 
+.volum, 
+.fullscreen {
+    cursor: pointer;
+}
+
+footer span {
+    font-size: 20px;
+}
