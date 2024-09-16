@@ -11,7 +11,7 @@ Création d'un lecteur vidéo entièrement personnalisé en HTML5, CSS3 et JavaS
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/lecteur_video_personnalise/
 
 ## Développez avec
 
