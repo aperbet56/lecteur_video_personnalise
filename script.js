@@ -78,7 +78,7 @@ const timerProgression = () => {
   if (video.ended) {
     //Si oui, retrait de la classe "pause" et modification de l'image
     playPauseBtn.classList.remove("pause");
-    playPauseBtn.style.backgroundImage = "url(../img/play.svg)";
+    playPauseBtn.style.backgroundImage = "url(img/play.svg)";
   }
 };
 
