@@ -84,7 +84,6 @@ video {
     transform: translateY(0);
 }
 
-
 .progress__bar {
     width: 100%;
     height: 5px;
@@ -140,14 +139,14 @@ footer span {
 
 /**** Responsive design ****/
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 767px) {
     .container__video {
         width: 90%;
         height: 300px;
     }
 
     video {
-        object-fit: contain;
+        object-fit: fill;
     }
 
     .pause__play,
