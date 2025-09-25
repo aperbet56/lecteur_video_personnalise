@@ -16,8 +16,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #f6b60d;
-    color: #372800; 
+    background-color: #f2f4f6;
+    color: #1b2d45;
 }
 
 header,
@@ -28,7 +28,7 @@ footer {
     padding: 15px;
 }
 
-h1, 
+h1,
 span {
     text-align: center;
 }
@@ -126,10 +126,10 @@ video {
     margin-right: 10px;
 }
 
-.progress__bar, 
-.pause__play, 
-.muted, 
-.volum, 
+.progress__bar,
+.pause__play,
+.muted,
+.volum,
 .fullscreen {
     cursor: pointer;
 }
