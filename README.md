@@ -1,5 +1,7 @@
 ## MON LECTEUR VIDEO PERSONNALISE 🎞️
 
+![Design preview for the projet](./img/preview.png)
+
 ## Le challenge
 
 Création d'un lecteur vidéo entièrement personnalisé en HTML5, CSS3 et JavaScript contenant notamment :
@@ -13,7 +15,7 @@ Création d'un lecteur vidéo entièrement personnalisé en HTML5, CSS3 et JavaS
 
 Lien vers le projet : https://aperbet56.github.io/lecteur_video_personnalise/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - CSS3
