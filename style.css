@@ -137,7 +137,7 @@ footer span {
     font-size: 20px;
 }
 
-/**** Responsive design ****/
+/**** Responsive design version mobile ****/
 
 @media screen and (max-width: 767px) {
     .container__video {
